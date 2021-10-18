@@ -1,7 +1,7 @@
 hr
 {
     width: 55%;
-    height: 0.5px;
+    height: 1px;
     background-color: #1B2743;
     margin-bottom: -20px;
     margin-right: auto;
@@ -31,9 +31,40 @@ hr
 }
 
 .left {
-    width: 12%;
+    width: 10%;
 }
 
 .right {
-    width: 88%;
+    width: 90%;
+}
+
+a.scroll {
+    font-family: "HelveticaNeue-CondensedLight", "Helvetica Neue";
+    font-size: 8px;
+    letter-spacing: 4px;
+}
+
+div.rotate {
+
+    transform: rotate(-90deg);
+
+
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    left: 0;
+
 }
