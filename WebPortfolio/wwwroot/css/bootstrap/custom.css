@@ -16,6 +16,7 @@ hr
     margin-right: 20px;
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
     transition: all .4s ease;
+    cursor: url('https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/NewCursor.svg'),auto;
 }
 
 .nav-link:hover{
@@ -24,6 +25,7 @@ hr
     margin-right: 20px;
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
     transition: all .4s ease;
+    cursor: url('https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/NewCursor.svg'),auto;
 }
 
 .column {
@@ -36,7 +38,6 @@ hr
 
 .right {
     width: 90%;
-    cursor: url('https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/CursorNew2.png'),auto;
 }
 
 a.scroll {
@@ -68,4 +69,25 @@ div.rotate {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     left: 0;
 
+}
+
+body{
+    cursor: url('https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/NewCursor.svg'),auto;
+}
+
+h1{
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    font-size: 60px;
+    color: white;
+}
+
+h3{
+    font-family: "HelveticaNeue-Condensed-Light", "HelveticaNeue-Light";
+    font-size: 20px;
+    color: white;
+}
+
+::selection {
+    color: white;
+    background: #F4283B;
 }
