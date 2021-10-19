@@ -1,6 +1,6 @@
 hr
 {
-    width: 55%;
+    width: 200px;
     height: 1px;
     background-color: #1B2743;
     margin-bottom: -20px;
@@ -10,21 +10,21 @@ hr
 }
 
 .nav-link{
-    margin-top: 30px;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
-    transition: all .4s ease;
+    margin-top: 30px; !important;
+    color: white; !important;
+    margin-left: 20px; !important;
+    margin-right: 20px; !important;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue"; !important;
+    transition: all .4s ease; !important;
     cursor: url('https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/NewCursor.svg'),auto;
 }
 
 .nav-link:hover{
-    color: #F4283B;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
-    transition: all .4s ease;
+    color: #F4283B; !important;
+    margin-left: 20px; !important;
+    margin-right: 20px; !important;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue"; !important;
+    transition: all .4s ease; !important;
     cursor: url('https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/NewCursor.svg'),auto;
 }
 
@@ -90,4 +90,38 @@ h3{
 ::selection {
     color: white;
     background: #F4283B;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+.navbar{
+    background-color: #091634 !important;
+}
+
+div.mobileOnly
+{
+    display: none;
+}
+@media screen and (max-width: 640px)
+{
+    div.mobileOnly
+    {
+        display: block;
+    }
+
+}
+
+div.screenOnly
+{
+    display: none;
+}
+@media screen and (min-width: 640px)
+{
+    div.screenOnly
+    {
+        display: block;
+    }
+
 }
