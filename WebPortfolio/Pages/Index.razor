@@ -1,6 +1,34 @@
 @page "/"
 @using WebPortfolio.Components
+@using Microsoft.JSInterop;
+@using System.Threading
+
+
 
 <MainSection></MainSection>
-<!--<AnotherComponent></AnotherComponent>-->
+<AnotherComponent></AnotherComponent>
 
+
+<div style="@display" class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+
+@code{
+
+    string display = "";
+
+
+    private async Task MakeToastWithButterAndJamAsync()
+    {
+        await Task.Delay(4000);
+        display = "display: none";
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await MakeToastWithButterAndJamAsync();
+    }
+    
+
+}

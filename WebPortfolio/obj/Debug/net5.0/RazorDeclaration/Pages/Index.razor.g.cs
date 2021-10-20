@@ -62,13 +62,6 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/_Imports.razor"
-using Microsoft.JSInterop;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 9 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/_Imports.razor"
 using WebPortfolio;
 
@@ -89,6 +82,20 @@ using WebPortfolio.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Index.razor"
+using Microsoft.JSInterop;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Index.razor"
+using System.Threading;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -97,6 +104,29 @@ using WebPortfolio.Components;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 17 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Index.razor"
+      
+
+    string display = "";
+
+
+    private async Task MakeToastWithButterAndJamAsync()
+    {
+        await Task.Delay(4000);
+        display = "display: none";
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await MakeToastWithButterAndJamAsync();
+    }
+    
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
