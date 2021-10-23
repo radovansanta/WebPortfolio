@@ -89,6 +89,20 @@ using WebPortfolio.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 36 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Components/Test.razor"
+       
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await jsRuntime.InvokeVoidAsync("renderjQueryComponents");
+        await base.OnAfterRenderAsync(firstRender);
+    }
+    
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }
     }
 }
 #pragma warning restore 1591

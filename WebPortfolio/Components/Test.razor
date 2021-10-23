@@ -1,14 +1,15 @@
-<nav class="navbar navbar-expand-md">
+@inject IJSRuntime jsRuntime
+
+<nav class="navbar navbar-expand-md navcolor">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <a style="color:white; horiz-align: center" class="nav-link">
              <div class="mobileOnly"><img style="max-width: 422px;max-height: 116px; horiz-align: center;" src="https://raw.githubusercontent.com/radovansanta/WebPortfolio/master/WebPortfolio/Images/Logo.png" alt=""></div>
         </a>
     </button>
-    <hr>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">
+            <li >
+                <a  href="#">
                     About me
                 </a>
             </li>
@@ -24,7 +25,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    Contact me!
+                    Contact me
                 </a>
             </li>
         </ul>
@@ -32,5 +33,10 @@
 </nav>
 
 @code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await jsRuntime.InvokeVoidAsync("renderjQueryComponents");
+        await base.OnAfterRenderAsync(firstRender);
+    }
     
 }
