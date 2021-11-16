@@ -105,7 +105,7 @@ using System.Threading;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Index.razor"
+#line 22 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Index.razor"
       
 
     string display = "";
@@ -119,7 +119,7 @@ using System.Threading;
     
     protected override async Task OnInitializedAsync()
     {
-        await MakeToastWithButterAndJamAsync();
+        //await MakeToastWithButterAndJamAsync();
     }
     
 

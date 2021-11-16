@@ -61,3 +61,5 @@
 /Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/obj/Debug/net5.0/Razor/Components/MainSection.razor.g.cs
 /Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/obj/Debug/net5.0/RazorDeclaration/Components/AnotherComponent.razor.g.cs
 /Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/obj/Debug/net5.0/Razor/Components/AnotherComponent.razor.g.cs
+/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/obj/Debug/net5.0/RazorDeclaration/Components/Introduction.razor.g.cs
+/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/obj/Debug/net5.0/Razor/Components/Introduction.razor.g.cs
