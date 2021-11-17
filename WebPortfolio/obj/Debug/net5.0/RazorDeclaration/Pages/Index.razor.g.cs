@@ -104,29 +104,6 @@ using System.Threading;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 22 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Index.razor"
-      
-
-    string display = "";
-
-
-    private async Task MakeToastWithButterAndJamAsync()
-    {
-        await Task.Delay(4000);
-        display = "display: none";
-    }
-    
-    protected override async Task OnInitializedAsync()
-    {
-        //await MakeToastWithButterAndJamAsync();
-    }
-    
-
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

@@ -5,35 +5,96 @@
 
 
 <Test></Test>
-<!--<MainSection></MainSection>-->
-<!--<AnotherComponent></AnotherComponent>-->
 
-<div class="wrapper">
-    <h1>Hi,<br>I'm <span style="color: #2DFCD8">Radovan</span>,<br>discover me more</h1>
+<div class="container wrapper">
+    <h1>Hi,<br>I'm 
+        <span style="color: #2DFCD8">Radovan</span>
+        ,<br>discover me more</h1>
 </div>
 
-<!--
-<div style="@display" class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="container">
+                <h1 style="color: #2DFCD8">Me, myself and I</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                 
+            </div>
+        </div>
+    </div>
 </div>
--->
+
+<div class="container" style="padding-left: 30px">
+    <h1>My created 
+        <span style="color: #2DFCD8">projects</span>
+    </h1>
+    
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">3 Tier Architecture</h5>
+                    <h6 class="card-title">C# -> C# -> Java</h6>
+                    <p class="card-text" style="font-size: 15px">The project is an example of a 3-Tier distributed system communicating through REST-APIs. The first and the second tier are programmed in C#, however the server in the third tier is developed in Java with a connection to SQL database. Try it and enjoy!</p>
+                    <a href="#" class="btn btn-main">Discover</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Tic Tac Toe</h5>
+                    <p class="card-text" style="font-size: 15px">Demonstration of creating popular game TicTacToe with a lot of functionalities programmed in C# using Blazor web framework.</p>
+                    <a href="#" class="btn btn-main">Discover</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Watering System</h5>
+                    <p class="card-text" style="font-size: 15px">The project is an example of a 3-Tier distributed system communicating through REST-APIs. The first and the second tier are programmed in C#, however the server in the third tier is developed in Java with a connection to SQL database. Try it and enjoy!</p>
+                    <a href="#" class="btn btn-main">Discover</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">3 Tier Architecture</h5>
+                    <p class="card-text" style="font-size: 15px">The project is an example of a 3-Tier distributed system communicating through REST-APIs. The first and the second tier are programmed in C#, however the server in the third tier is developed in Java with a connection to SQL database. Try it and enjoy!</p>
+                    <a href="#" class="btn btn-main">Discover</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">3 Tier Architecture</h5>
+                    <p class="card-text" style="font-size: 15px">The project is an example of a 3-Tier distributed system communicating through REST-APIs. The first and the second tier are programmed in C#, however the server in the third tier is developed in Java with a connection to SQL database. Try it and enjoy!</p>
+                    <a href="#" class="btn btn-main">Discover</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">3 Tier Architecture</h5>
+                    <p class="card-text" style="font-size: 15px">The project is an example of a 3-Tier distributed system communicating through REST-APIs. The first and the second tier are programmed in C#, however the server in the third tier is developed in Java with a connection to SQL database. Try it and enjoy!</p>
+                    <a href="#" class="btn btn-main">Discover</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 @code{
-
-    string display = "";
-
-
-    private async Task MakeToastWithButterAndJamAsync()
-    {
-        await Task.Delay(4000);
-        display = "display: none";
-    }
     
-    protected override async Task OnInitializedAsync()
-    {
-        //await MakeToastWithButterAndJamAsync();
-    }
     
 
 }
