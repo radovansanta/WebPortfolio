@@ -82,7 +82,14 @@ using WebPortfolio.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
+#nullable restore
+#line 2 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Counter.razor"
+using WebPortfolio.Components;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/project_1")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,20 +97,6 @@ using WebPortfolio.Shared;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 9 "/Users/radovansanta/RiderProjects/WebPortfolio/WebPortfolio/Pages/Counter.razor"
-       
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591
